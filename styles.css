@@ -1,9 +1,9 @@
 h1 {
 text-align: center;
 }
-/* body {
-    justify-items: center;
-} */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 button {
     margin-left: auto;
     margin-right: auto;
@@ -13,4 +13,15 @@ button {
     border: none;
     border-radius: 10px 10px;
     color: white;
+}
+div#container {
+    width: 90%;
+    align-items: center;
+}
+div div {
+    width: 30%;
+    aspect-ratio: 1;
+    max-width: 150px;
+    margin: auto;
+    display: inline-block;
 }
