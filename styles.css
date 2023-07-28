@@ -9,7 +9,7 @@ button {
     margin-right: auto;
     width: 100px;
     height: 50px;
-    background-color: black;
+    background-color: rgb(124, 65, 65);
     border: none;
     border-radius: 10px 10px;
     color: white;
@@ -18,10 +18,11 @@ div#container {
     width: 90%;
     align-items: center;
 }
-div div {
+div div, div.clickme {
     width: 30%;
     aspect-ratio: 1;
     max-width: 150px;
     margin: auto;
     display: inline-block;
+    border: solid 2px white;
 }

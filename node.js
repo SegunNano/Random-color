@@ -23,3 +23,16 @@ button.addEventListener('click', function() {
     button.style.backgroundColor = 'black'
    }
 })
+const randomColor = function() {
+   const a = Math.floor(Math.random() * 255);
+   const c = Math.floor(Math.random() * 255);
+   const d = Math.floor(Math.random() * 255);
+   return `rgb(${a}, ${c}, ${d})`;
+}
+const clickMes = document.querySelectorAll('.clickme')
+for (let clickMe of clickMes) {
+    clickMe.addEventListener('click', function() {
+        clickMe.style.backgroundColor = randomColor();
+        clickMe.innerText = randomColor();
+    })
+}
